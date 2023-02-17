@@ -8,7 +8,7 @@ public class DemoSpringBootController {
 	
 	@GetMapping(value = "/saludo")
 	public String saludo() {
-		return "Hola Mundo";
+		return "Hola Mundo con Spring Boot";
 	}
 
 }
